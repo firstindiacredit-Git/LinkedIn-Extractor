@@ -29,7 +29,10 @@ function App() {
     setLoading(true);
     try {
       const response = await axios.post(
-        "http://localhost:3000/scrape",
+        "http://13.51.197.207:3000/scrape",
+        // "https://localhost:3000/scrape",
+        // "https://linkedin-extractor-backend.vercel.app/scrape",
+
         formData
       );
       setLoading(false);
