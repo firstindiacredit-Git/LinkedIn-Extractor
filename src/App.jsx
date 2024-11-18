@@ -29,7 +29,8 @@ function App() {
     setLoading(true);
     try {
       const response = await axios.post(
-        "http://13.51.197.207:3000/scrape",
+        "https://linkedinscraper.pizeonfly.com/scrape",
+        // "http://13.51.197.207:3000/scrape",
         // "https://localhost:3000/scrape",
         // "https://linkedin-extractor-backend.vercel.app/scrape",
 
